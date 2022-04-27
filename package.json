@@ -1,0 +1,23 @@
+{
+  "name": "study_threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyeryoung16/Study_Threejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyeryoung16/Study_Threejs/issues"
+  },
+  "homepage": "https://github.com/Hyeryoung16/Study_Threejs#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
