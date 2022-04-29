@@ -1,4 +1,4 @@
 dist/** linguist-documentation=false
 dist/** linguist-vendored=false
-dist/lib/** linguist-documentation=true
-dist/lib/** linguist-vendored=true
+dist/lib/*.js linguist-documentation
+dist/lib/*.js linguist-vendored
