@@ -1,5 +1,2 @@
-dist/lib/build/** linguist-documentation
-dist/lib/build/** linguist-vendored
-
-dist/lib/example/** linguist-documentation
-dist/lib/example/** linguist-vendored
+dist/** linguist-documentation=false
+dist/** linguist-vendored=false

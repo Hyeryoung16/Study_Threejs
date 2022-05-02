@@ -1,7 +1,7 @@
-import * as THREE from "../lib/build/three.module.js"
-import {OrbitControls} from "../lib/example/jsm/controls/OrbitControls.js"
-import {FontLoader} from "../lib/example/jsm/loaders/FontLoader.js"
-import {TextGeometry} from "../lib/example/jsm/geometries/TextGeometry.js"
+import * as THREE from 'three';
+import { OrbitControls } from 'https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js';
+import {FontLoader} from "https://unpkg.com/three@0.140.0/examples/jsm/loaders/FontLoader.js"
+import {TextGeometry} from "https://unpkg.com/three@0.140.0/examples/jsm/geometries/TextGeometry.js"
 
 class App {
   constructor() {

@@ -1,5 +1,5 @@
-import * as THREE from "../lib/build/three.module.js"
-import {OrbitControls} from "../lib/example/jsm/controls/OrbitControls.js"
+import * as THREE from 'three';
+import { OrbitControls } from 'https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js';
 
 class App {
   constructor() {
