@@ -1,8 +1,8 @@
-dist/css/ linguist-documentation=false
-dist/css/ linguist-vendored=false
+dist/css/*.css linguist-documentation=false
+dist/css/*.css linguist-vendored=false
 
-dist/html/ linguist-documentation=false
-dist/html/ linguist-vendored=false
+dist/html/*.html linguist-documentation=false
+dist/html/*.html linguist-vendored=false
 
-dist/js/ linguist-documentation=false
-dist/js/ linguist-vendored=false
+dist/js/*.js linguist-documentation=false
+dist/js/*.js linguist-vendored=false
