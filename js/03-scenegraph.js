@@ -1,5 +1,5 @@
-import * as THREE from "../lib/build/three.module.js"
-import {OrbitControls} from "../lib/example/jsm/controls/OrbitControls.js"
+import * as THREE from 'three';
+import { OrbitControls } from 'https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js';
 
 class App {
   constructor() {
@@ -15,9 +15,9 @@ class App {
     this._scene = scene;
 
     this._setupCamera();
+    this._setupControls();
     this._setupLight();
     this._setupModel();
-    this._setupControls();
 
     window.onresize = this.resize.bind(this); 
     this.resize();
@@ -161,7 +161,6 @@ class App {
     this._sun.rotation.y = time / 4;
     this._solarSystem.rotation.y = time / 2;
     this._earthOrbit.rotation.y = time * 2;
-    this
   }
 }
 
