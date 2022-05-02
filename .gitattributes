@@ -1,11 +1,8 @@
-dist/css/* linguist-documentation=false
-dist/css/* linguist-vendored=false
+dist/** linguist-documentation=false
+dist/** linguist-vendored=false
 
-dist/html/* linguist-documentation=false
-dist/html/* linguist-vendored=false
+dist/lib/build/** linguist-documentation
+dist/lib/build/** linguist-vendored
 
-dist/js/* linguist-documentation=false
-dist/js/* linguist-vendored=false
-
-dist/lib/**/* linguist-documentation
-dist/lib/**/* linguist-vendored
+dist/lib/example/** linguist-documentation
+dist/lib/example/** linguist-vendored
