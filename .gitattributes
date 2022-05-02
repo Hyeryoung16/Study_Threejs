@@ -1,6 +1,3 @@
-dist/** linguist-documentation=false
-dist/** linguist-vendored=false
-
 dist/lib/build/** linguist-documentation
 dist/lib/build/** linguist-vendored
 
