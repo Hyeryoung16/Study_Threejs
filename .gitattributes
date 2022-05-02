@@ -7,5 +7,5 @@ dist/html/*.html linguist-vendored=false
 dist/js/*.js linguist-documentation=false
 dist/js/*.js linguist-vendored=false
 
-dist/lib/*.js linguist-documentation=true
-dist/lib/*.js linguist-vendored=true
+dist/lib/*.js linguist-documentation
+dist/lib/*.js linguist-vendored
